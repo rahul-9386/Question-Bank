@@ -7,7 +7,7 @@ import connectWithMongoDB from './db/Connection1.js'
 import cors from 'cors'
 
 app.use(cors({
-    origin: ["http://localhost:3000","https://question-bank-two.vercel.app"]
+    origin: ["http://localhost:3000","https://question-bank-mauve-three.vercel.app/"]
 }));
 
 connectWithMongoDB();
